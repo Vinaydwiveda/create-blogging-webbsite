@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const user = registeredUsers.find(user => user.email === email && user.password === password);
         if (user) {
             alert(`Welcome back, ${user.name}!`);
-            window.location.href = './index.html';
+            window.location.href = 'hackaton.html';
         } else {
             alert('Invalid credentials.');
         }
