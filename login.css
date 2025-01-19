@@ -1,0 +1,44 @@
+/* Existing styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-container {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#switch-to-login {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* New header styles */
+header {
+    background-color: white; /* Background color for the header */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center the header text */
+    border-bottom: 2px solid black; /* Bottom border for separation */
+    position: absolute; /* Ensure the header is positioned relative */
+    z-index: 10; /* Ensure it stays above other elements */
+    margin-bottom: 25rem; /* Add margin to separate from forms */
+}
