@@ -80,7 +80,7 @@ settingsOption.addEventListener('click', () => {
 
 
 logoutoption.addEventListener('click', () => {
-    window.location.href = './login.html';
+    window.location.href = 'index.html';
 });
 
 
