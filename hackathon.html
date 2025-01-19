@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes & Profile</title>
+    <link rel="stylesheet" href="./j.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Quotes & Blog</div>
+        <div class="hamburger-menu" id="hamburger-menu">
+            ☰
+        </div>
+        <div class="profile-menu hidden" id="profile-menu">
+            <div class="profile-header">
+                <img src="./IMG_20241006_114059.jpg" alt="Profile" class="profile-image">
+                <span class="profile-name">Vinay</span>
+            </div>
+            <ul>
+                <li id="settings-option">Settings</li>
+                <li id="logout-option">Logout</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="quote-editor">
+            <h2>Quote Editor</h2>
+            <form id="quote-form">
+                <label for="quote">Quote:</label>
+                <textarea id="quote" rows="3" placeholder="Enter your quote here..." required></textarea>
+                <label for="author">Author:</label>
+                <input type="text" id="author" placeholder="Enter the author's name" required>
+                <label for="context">Context:</label>
+                <textarea id="context" rows="2" placeholder="Enter the context of the quote..." required></textarea>
+                <button type="submit">Add Quote</button>
+            </form>
+        </section>
+        <section class="postg">
+            <!-- Quotes will be dynamically rendered here -->
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
